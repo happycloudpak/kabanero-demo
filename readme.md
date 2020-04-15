@@ -6,11 +6,11 @@ A sample application to visually demonstrate the Knative application routing cap
 The medium paper: https://medium.com/@zhimin.wen/demo-of-application-routing-of-knative-serving-5d3a22448a53
 
 # How to test 
-$ git clone <git url>
-$ cd kabanero-demo
-$ cd back-end
-$ docker build -t happycloudpak/knative-demo-backend . 
-$ cd ../front-end
+$ git clone <git url>\ 
+$ cd kabanero-demo\  
+$ cd back-end   
+$ docker build -t happycloudpak/knative-demo-backend .    
+$ cd ../front-end   
 $ docker build -t happycloudpak/knative-demo-frontend .
 $ docker push happycloudpak/knative-demo-backend
 $ docker push happycloudpak/knative-demo-frontend
